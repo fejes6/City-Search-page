@@ -2955,6 +2955,19 @@
     });
   } );    
   </script>  
+  <script type="text/javascript">
+    $(function() {
+        $('form').each(function() {
+            $(this).find('input').keypress(function(e) {
+                if(e.which == 10 || e.which == 13) {
+                  window.location.replace("https://fejes6.github.io/page/detail_obce.html");
+                }
+            });
+
+            $(this).find('input[type=submit]').hide();
+        });
+    });
+  </script>
 
 
     <!-- Bootsrtap menu navigation -->
@@ -3119,7 +3132,10 @@
     <div class="form-group row">
       <div class="col-sm-2"></div>
       <div class="col-sm-8">
-        <input id="towns" type="text" class="form-control form-control-lg ui-autocomplete" placeholder=" Zadajte názov" name="text">
+        <form name="loginBox" target="#here" method="post">
+	        <input id="towns" type="text" class="form-control form-control-lg ui-autocomplete" placeholder=" Zadajte názov" name="text">
+          <input type="submit" />
+        </form>
       </div>
       <div class="col-sm-2"></div>
     </div>
