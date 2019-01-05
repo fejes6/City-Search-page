@@ -83,3 +83,10 @@ select.select-color {
 	white-space: nowrap;
 }
 
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.nav-link:hover {
+  background-color:#f8f9fa
+}
