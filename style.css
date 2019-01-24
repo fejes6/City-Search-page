@@ -91,4 +91,14 @@ select.select-color {
   background-color:#f8f9fa
 }
 
-
+.button_search {
+  color: #FFFFFF;
+  background-color: #DFDFDF;
+  border-color: #DFDFDF;
+  padding-top: 50px;
+}
+.button_search:hover{
+  color: #06D3A8;
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
+}
