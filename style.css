@@ -95,11 +95,9 @@ select.select-color {
   color: #000000;
   background-color: #DFDFDF;
   border-color: #DFDFDF;
-  padding-top: 50px;
 }
 .button_search:hover{
   color: white;
   background-color: #b7b2b2;
-  border-color: #b7b2b2;
-  padding-top: 30px;	
+  border-color: #b7b2b2;	
 }
